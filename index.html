@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewpoirt" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Heads Or Tails Game</title>
+  </head>
+  <body>
+    <section id="main" class="game">
+      <div id="header" class="header">
+        <h1>Heads Or Tails</h1>
+      </div>
+      <div id="instr" class="intro">
+        <p id="p1"> Play Against the Computer </p>
+        <p id="p2"> Make Your Guess: <br> Heads or Tails ?</p>
+      </div>
+      <div id="scoreBoard" class="scoreBoard">
+        <div id="user" class="player">User</div>
+        <div id="comp" class="player">Comp</div>
+        <span id="playerScore" class="score">0</span>
+        <span id="compScore" class="score">0</span>
+        <div id="roundNumber" class="round">Round: </div>
+      </div>
+      <div id="winner" class="results">
+        <p></p>
+      </div>
+      <div id="result" class="results">
+        <p></p>
+      </div>
+      <div class="buttons">
+        <button id="btn1" class="choice">HEADS</button>
+        <button id="btn2" class="choice">TAILS</button>
+      </div>
+    </section>
+    <script src="logic.js"></script>
+  </body>
+</html>

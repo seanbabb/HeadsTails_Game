@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(240, 240, 0);
+  align-content: center;
+  font-family: sans-serif;
+}
+section{
+  height: 100vh;
+  align-content: space-around;
+}
+  .header{
+    background-color: rgb(255, 240, 240);
+    padding: 10px;
+  }
+  .header h1{
+    text-align: center;
+    font-size: 50px;
+  }
+  .intro{
+    background-color: inherit;
+    padding: 10px;
+    text-align: center;
+  }
+  .intro #p1{
+    font-size: 35px;
+    padding: 5px;
+  }
+  .intro #p2{
+    font-size: 30px;
+    padding: 5px;
+  }
+.scoreBoard{
+  height: 10vh;
+  width: 300px;
+  padding: 10px;
+  text-align: center;
+  border: 3px solid white;
+  border-radius: 5px;
+  margin: auto;
+  background-color: rgb(192, 192, 192);
+  position: relative;
+}
+.player{
+  padding: 5px;
+  margin: 5px;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(255, 0, 0);
+}
+  #user{
+    position: absolute;
+    top: 0;
+    left: 2px;
+  }
+  #comp{
+    position: absolute;
+    top: 0;
+    right: 2px;
+  }
+.score{
+  font-size: 35px;
+  padding: 30px;
+}
+.results{
+  padding: 5px;
+  text-align: center;
+}
+  #winner{
+    font-size: 40px;
+  }
+  #result{
+    font-size: 30px;
+  }
+.buttons{
+  padding: 5px;
+  text-align: center;
+}
+.buttons button{
+  width: 80px;
+  height: 35px;
+  padding: 5px;
+  font-size: 15px;
+  background: none;
+  border: none;
+  background-color: rgb(200, 100, 100);
+  border-radius: 30%;
+  cursor: pointer;
+}
+.choice:hover{
+  border: 3px solid white;
+  background-color: rgb(255, 0, 0);
+}
