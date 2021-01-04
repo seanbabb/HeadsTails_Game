@@ -17,5 +17,5 @@ All feedback, bugs, issues, pull requests, etc. are welcome.
 
 ## Contact
 #### Sean Babb  
-[@seanbabb](https://twitter.com/seanbabb "Sean Babb Twitter Profile")  
+<img src="https://user-images.githubusercontent.com/76570656/103583961-b1407680-4eae-11eb-8a5f-d362849b4a6a.png" width =32 align = left> [@seanbabb](https://twitter.com/seanbabb)  
 <https://github.com/seanbabb/>  
