@@ -9,6 +9,7 @@ A cleanly designed game that can be played in a browser. The game consists of a 
 * Game automatically responds to screen size being played on.
 
 ### Screenshot
+![Screenshot_HeadsTails](https://user-images.githubusercontent.com/76570656/103580604-83583380-4ea8-11eb-994e-bd4f3a586753.png)  
 
 ## Feedback
 All feedback, bugs, issues, pull requests, etc. are welcome.  
